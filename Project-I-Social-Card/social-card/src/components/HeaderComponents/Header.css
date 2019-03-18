@@ -1,7 +1,6 @@
 /* All styles for your header Components live here */
 
 .header-container {
-    /* border: 3px solid orange;  */
     width: 100%;
     padding: 2px;
     display: flex;
@@ -12,7 +11,6 @@
 }
 
 .header-img-container {
-    /* border: 2px solid blue; */
     width: 20%;
 }
 
@@ -21,12 +19,10 @@
 }
 
 .header-content-container {
-    /* border: 2px solid hotpink; */
     padding: 2px 10px;
     display: flex;
     flex-direction: column;
     top: 0;
-    /* justify-content: center; */
     
 }
 

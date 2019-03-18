@@ -1,17 +1,14 @@
 /* All styles for your Card Components live here */
 
 .card-container {
-    /* border: 1px solid red; */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     font-size: 0.9rem;
-    /* margin-right: 10px; */
 }
 
 .banner-img-container {
-    /* border: 2px solid darkcyan; */
     /* width total with margin should = 90% */
     width: 88%;
     height: 250px;
@@ -27,6 +24,7 @@
 
 .card-content {
     border: 1px solid lightgrey;
+    /* width total with margin should = 90% */
     width: 84%;
     padding: 0 2%;
     margin-right: 2%;
