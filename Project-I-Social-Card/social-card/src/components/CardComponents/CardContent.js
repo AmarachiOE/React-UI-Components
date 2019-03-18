@@ -4,8 +4,8 @@ import "./Card.css";
 // create custom component
 const CardContent = () => {
   return (
-    <div className="content">
-      <p className="content-title">
+    <div className="card-content">
+      <p className="card-content-title">
         <strong>Get started with React</strong>
       </p>
       <p>

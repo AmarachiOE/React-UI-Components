@@ -2,12 +2,23 @@
 
 .card-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .banner-img-container {
-    width: 100%;
+    border: 2px solid darkcyan;
+    width: 90%;
+    margin-right: 2px;
 }
 
 .banner-img {
     width: 100%;
+}
+
+.card-content {
+    border: 2px solid darkgreen;
+    width: 90%;
+    margin-right: 2px;
 }

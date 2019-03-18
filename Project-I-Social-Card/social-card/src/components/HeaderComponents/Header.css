@@ -6,6 +6,7 @@
     padding: 2px;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 .header-img-container {
@@ -22,13 +23,12 @@
     padding: 2px;
     display: flex;
     flex-direction: column;
+    top: 0;
     /* justify-content: center; */
     
 }
 
-.header-top-line {
-    display: flex;
-    flex-direction: row;
+.header-title {
     margin: 0px;
 }
 
