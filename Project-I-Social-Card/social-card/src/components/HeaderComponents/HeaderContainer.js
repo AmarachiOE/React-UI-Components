@@ -11,11 +11,11 @@ import ImageThumbnail from "./ImageThumbnail";
 
 // create custom component
 const HeaderContainer = () => {
-    return(
+    return (
         <div className="header-container">
-        <HeaderTitle />
-        <HeaderContent />
-        <ImageThumbnail />
+            <HeaderTitle />
+            <HeaderContent />
+            <ImageThumbnail />
         </div>
     );
 }
@@ -24,4 +24,3 @@ const HeaderContainer = () => {
 export default HeaderContainer;
 
 // import custom component on app.js file
- 
