@@ -5,7 +5,8 @@ import React from 'react';
 import './Header.css';
 
 // import custom components
-import HeaderTitle from "./HeaderTitle";
+// import HeaderTitle from "./HeaderTitle"; 
+// now combined this with HeaderContent to make styling easier
 import HeaderContent from "./HeaderContent";
 import ImageThumbnail from "./ImageThumbnail";
 
@@ -13,9 +14,8 @@ import ImageThumbnail from "./ImageThumbnail";
 const HeaderContainer = () => {
     return (
         <div className="header-container">
-            <HeaderTitle />
-            <HeaderContent />
             <ImageThumbnail />
+            <HeaderContent />
         </div>
     );
 }

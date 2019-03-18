@@ -7,9 +7,12 @@ import "./Header.css";
 // create custom component
 const HeaderTitle = () => {
   return (
-    <p className="header-title">
-      <strong>Lambda School</strong> @LambdaSchool * 26 jan
-    </p>
+    <div className="header-top-line">
+      <p className="header-title">
+        <strong>Lambda School</strong>
+      </p>
+      <p className="gray"> @LambdaSchool * 26 jan</p>
+    </div>
   );
 };
 
