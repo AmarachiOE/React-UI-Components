@@ -1,7 +1,7 @@
 .basicButtonStyles{
-    color: purple;
     font-size: 50px;
     cursor: pointer;
+    text-align: center;
   }
 
 .pink {
@@ -13,19 +13,23 @@
 }
 
 .number {
-    background-color: white;
+    background-color: #FDFDFB;
     color: black;
+    border: 1px solid #989890;
 }
 
 .symbol {
     background-color: #A71411;
     color: white;
+    border: 1px solid #989890;
 }
 
 .action {
-    background-color: white;
+    background-color: #FDFDFB;
     color: black;
+    border: 1px solid #989890;
 }
+
 
 
 .item2 {

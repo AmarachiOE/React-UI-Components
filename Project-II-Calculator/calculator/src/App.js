@@ -4,12 +4,14 @@ import './App.css';
 // import custom components
 import NumberButton from "./components/ButtonComponents/NumberButton";
 import ActionButton from "./components/ButtonComponents/ActionButton";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay"; 
 
 const App = () => {
   return (
     <div className="app grid-container">
+      <CalculatorDisplay gridItem="item1" Style="display" text="0" />
       <ActionButton gridItem="item2" buttonStyle="action" text="clear"/>
-      <NumberButton gridItem="item3" buttonStyle="symbol" text="/" />
+      <NumberButton gridItem="item3" buttonStyle="symbol" text="÷" />
       <NumberButton gridItem="item4" buttonStyle="number" text="7" />
       <NumberButton gridItem="item5" buttonStyle="number" text="8" />
       <NumberButton gridItem="item6" buttonStyle="number" text="9" />
